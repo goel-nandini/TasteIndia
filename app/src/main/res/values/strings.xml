@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TasteIndia</string>
+
+    <!-- Destinations -->
+    <string name="destination_recipes">Recipes</string>
+    <string name="destination_favourites">Favourites</string>
+    <string name="destination_details">Recipe details</string>
+
+    <!-- Recipes list -->
+    <string name="search_hint">Search Indian recipes</string>
+    <string name="search_clear">Clear search text</string>
+    <string name="filters_open">Open filters</string>
+    <string name="filters_title">Filters</string>
+    <string name="filters_done">Done</string>
+    <string name="filters_clear_all">Clear all</string>
+    <string name="filters_active_label">Active filters</string>
+    <string name="filter_category">Category</string>
+    <string name="filter_ingredient">Main ingredient</string>
+    <string name="filter_favourites_only">Favourites only</string>
+    <string name="filter_favourites_only_description">Show only recipes you have saved</string>
+    <string name="filter_sort">Sort by name</string>
+    <string name="sort_name_asc">A to Z</string>
+    <string name="sort_name_desc">Z to A</string>
+    <string name="filter_any">Any</string>
+    <string name="filter_chip_category">Category: %1$s</string>
+    <string name="filter_chip_ingredient">Ingredient: %1$s</string>
+    <string name="filter_chip_search">Search: %1$s</string>
+    <string name="filter_chip_favourites">Favourites only</string>
+    <string name="filter_chip_remove">Remove filter %1$s</string>
+
+    <plurals name="result_count">
+        <item quantity="one">%1$d recipe</item>
+        <item quantity="other">%1$d recipes</item>
+    </plurals>
+    <string name="result_count_of_total">%1$s of %2$d</string>
+
+    <!-- Enrichment -->
+    <string name="enrichment_progress">Loading recipe details — %1$d of %2$d</string>
+
+    <!-- States -->
+    <string name="state_loading">Loading Indian recipes</string>
+    <string name="state_retry">Try again</string>
+    <string name="state_empty_filters_title">No recipes match these filters</string>
+    <string name="state_empty_filters_body">Your filters are still applied. Adjust them, or clear all to see every Indian recipe again.</string>
+    <string name="state_empty_favourites_title">No saved recipes yet</string>
+    <string name="state_empty_favourites_body">Tap the heart on any recipe to save it here. Saved recipes stay available without a connection.</string>
+    <string name="state_offline_banner">Showing saved recipes — you are offline.</string>
+
+    <!-- Errors -->
+    <string name="error_offline">No internet connection. Connect and try again.</string>
+    <string name="error_timeout">The request took too long. Check your connection and try again.</string>
+    <string name="error_server">TheMealDB returned an error (%1$d). Try again in a moment.</string>
+    <string name="error_unexpected">Something went wrong loading recipes. Try again.</string>
+    <string name="error_meal_not_found">This recipe could not be loaded.</string>
+
+    <!-- Favourites -->
+    <string name="favourite_add">Add %1$s to favourites</string>
+    <string name="favourite_remove">Remove %1$s from favourites</string>
+
+    <!-- Details -->
+    <string name="details_hero_description">Photo of the prepared dish, %1$s</string>
+    <string name="details_image_unavailable">Recipe photo unavailable</string>
+    <string name="details_ingredients">Ingredients</string>
+    <string name="details_instructions">Instructions</string>
+    <string name="details_tags">Tags</string>
+    <string name="details_source">Read the full recipe for %1$s on the source website</string>
+    <string name="details_source_label">Source recipe</string>
+    <string name="details_youtube">Watch %1$s on YouTube</string>
+    <string name="details_youtube_label">Watch on YouTube</string>
+    <string name="details_no_app">No app available to open this link.</string>
+    <string name="back">Back</string>
+
+    <!-- Attribution -->
+    <string name="attribution">Recipe data and images from TheMealDB.</string>
+</resources>
